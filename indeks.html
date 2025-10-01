@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Holiday</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Honk&family=Nabla&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar fixed-top bg-body-tertiary navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/img/Adsız tasarım (13).png"
+            width="150px"
+            height="70px"
+            alt=""
+          />
+          <p class="d-none d-md-inline holiday">WOODİNARYUS</p>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Anasayfa</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#form">Ürünlerimiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#company">Kampanyalar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">İletişim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carusel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assets/img/🎁 Ahşap oyuncak, nesilden nesile sevgiyle!.png"
+            class="d-block w-100"
+            alt="..."
+            style="max-height: 100vh"
+          />
+          <!-- <div class="carousel-caption d-none d-md-block">
+            <h5>Thailand Phuket</h5>
+            <p>
+              “Her şey kötüye gittiğinde kendine bir tatil ısmarla.” – Betty
+              Williams
+            </p>
+          </div> -->
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/Adsız tasarım (12).png"
+            class="d-block w-100"
+            alt="..."
+            style="max-height: 100vh"
+          />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="./assets/img/Valentine's Sale.png"
+            class="d-block w-100"
+            alt="..."
+            style="max-height: 100vh"
+          />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Card  -->
+    <div class="container fluid" id="company">
+      <div class="row justify-content-center gap-5 mt-5 mb-5">
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/Adsız tasarım (12).png"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ahşap Sunumluklar</h5>
+
+              <p class="card-text">
+                Dilediğiniz tasarımlarla ister toptan ister parekende
+              </p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/✨ Sade, şık ve tamamen size özel!.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kalpli sunumluk</h5>
+
+              <p class="card-text">Özel anlarınız için tasarlandı</p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/LRM_20250205_194153-Photoroom.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ahşap Şekerlik</h5>
+
+              <p class="card-text">Çok özel el işçiliğiyle üretildi</p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/Valentine's Sale.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ahşap Bardak Altlığı Takımı</h5>
+
+              <p class="card-text">Şık kahve sunumluğu</p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/🌸 Her kahve bir hikaye, her sunum bir sevgi..png"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Özel kahve Sunumluğu</h5>
+
+              <p class="card-text">Özel hissettirir</p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/18 cm (1).png"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ağaç Tasarım Çerezlik Takımı</h5>
+
+              <p class="card-text">Fark oluşturur</p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/22 cm.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sunumluk</h5>
+
+              <p class="card-text">Çok amaçlı sunumluk</p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/Ayaklı1.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ayaklı Sunumluk</h5>
+
+              <p class="card-text">Şık görünüm</p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/Sevdiklerinize anlamlı bir hediye vermek için mükemmel seçim.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kalpli Sunum Tahtası</h5>
+
+              <p class="card-text">Özel anlar için tasarlandı</p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/71 Car 2-Photoroom.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Oyuncak Araba A5</h5>
+
+              <p class="card-text">
+               
+              </p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/73 Car 4-Photoroom.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Oyuncak Araba A13</h5>
+            
+              <p class="card-text">
+               
+              </p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-xl-3">
+          <div class="card">
+            <img
+              src="./assets/img/77 Car 8-Photoroom.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 270px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Oyuncak Araba A25</h5>
+              
+              <p class="card-text">
+                
+              </p>
+              <a href="#" class="btn btn-primary">Detayları İncele</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <div class="form" id="form">
+      <div class="harita row col-12 col-md-6">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.910002224012!2d34.074531577740224!3d41.027224871347975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x408413ba739f8829%3A0x68a631da81db5d27!2sYavuz%20Selim%2C%2037300%20Tosya%2FKastamonu!5e0!3m2!1str!2str!4v1759263612838!5m2!1str!2str"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <form
+        class="row col-12 justify-content-center col-md-6 border border-primary p-3"
+        action="mailto:info@seninsiten.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <h2><i class="fa-solid fa-envelope"></i> Bize Ulaşın</h2>
+
+        <div class="col-md-8">
+          <label for="name" class="form-label">Ad Soyad</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="Ad Soyad"
+            placeholder="Adınızı ve soyadınızı giriniz"
+            required
+          />
+        </div>
+
+        <div class="col-md-8">
+          <label for="email" class="form-label">E-posta</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="E-posta"
+            placeholder="ornek@mail.com"
+            required
+          />
+        </div>
+
+        <div class="col-md-8">
+          <label for="subject" class="form-label">Konu</label>
+          <input
+            type="text"
+            class="form-control"
+            id="subject"
+            name="Konu"
+            placeholder="Mesajınızın konusu"
+          />
+        </div>
+
+        <div class="col-md-8">
+          <label for="message" class="form-label">Mesaj</label>
+          <textarea
+            class="form-control"
+            id="message"
+            name="Mesaj"
+            rows="4"
+            placeholder="Mesajınızı buraya yazın..."
+            required
+          ></textarea>
+        </div>
+
+        <div class="col-md-12 text-center mt-3">
+          <button type="submit" class="btn btn-primary w-50">Gönder</button>
+        </div>
+      </form>
+
+      <!-- footer -->
+      <div id="footer">
+        <p><i class="fa-solid fa-phone"></i> 0 544 973 22 03</p>
+        <p><i class="fa-solid fa-envelope"></i> info@woodinaryus.com</p>
+        <p>
+          <i class="fa-solid fa-location-dot"></i> Tosya Yeni Küçük Sanayi Sitesi Yavuz Selim Mahallesi Tosya
+        </p>
+      </div>
+    </div>
+
+    <!-- WhatsApp Sabit Buton -->
+    <a
+      href="https://wa.me/905449732203"
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener noreferrer"
+      data-bs-toggle="tooltip"
+      data-bs-placement="left"
+      title="Bize WhatsApp’tan yazın"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var tooltipTriggerList = [].slice.call(
+          document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        );
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+      });
+    </script>
+  </body>
+</html>

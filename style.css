@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 0px;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form form {
+  background-color: #ffc652;
+  padding: 15px;
+  gap: 2rem;
+}
+.form button {
+  background-color: #003465;
+  min-width: 330px !important;
+}
+.form h2 {
+  color: #003465;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px white;
+}
+.card {
+  box-shadow: 5px 5px 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.card img {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+.card p {
+  font-size: 0.7rem;
+}
+.card span {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 1px black;
+  color: greenyellow;
+}
+.card h5 {
+  color: gray;
+  font-weight: 800;
+  /* text-shadow: 1px 1px 1px rgb(0, 0, 0); */
+}
+.card img:hover {
+  transform: scale(1.15);
+  transition: all 0.8s ease;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.card h4 {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: ghostwhite;
+  text-shadow: 1px 1px 1px red;
+  padding: 10px 25px;
+  backdrop-filter: blur(3px);
+  border-radius: 50px;
+  visibility: hidden;
+}
+.card:hover h4 {
+  visibility: visible;
+}
+.navbar {
+  background-color: transparent !important;
+  backdrop-filter: blur(1px);
+  box-shadow: 0 3px 3px black;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.holiday {
+  display: inline;
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(122, 17, 136);
+  text-shadow: 2px 2px 1px black;
+  letter-spacing: 0.2rem;
+}
+.carousel h5
+ {
+  padding: 5px 25px;
+  backdrop-filter: blur(3px);
+  text-shadow: 1px 1px 1px red;
+}
+.carousel p{
+    padding: 5px 25px;
+    backdrop-filter: blur(3px);
+    text-shadow: 1px 1px 1px red;
+}
+.harita{
+    height: 300px;
+}
+#footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:25px;
+    background-color: rgb(175, 160, 110);
+    margin-top:20px;
+    
+}
+input{
+    background-color: rgb(255, 228, 196) !important;
+   
+}
+select{
+    background-color: rgb(255, 228, 196) !important;
+}
+.container{
+    background-image: url(./assets/img/wallpaperflare.com_wallpaper\ \(14\).jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ul{
+    gap:10px;
+    text-align: center;
+}
+li{
+    width: 130px;
+    background-color:rgba(136, 135, 150, 0.644);
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white !important;
+    font-size: 1rem !important;
+    font-weight: 700;
+    
+}
+li:hover{
+    background-color: greenyellow;
+    transition: all 1s ease;
+    
+    
+}
+li:hover a{
+color: black !important;
+transition: all 1s ease;
+}
+li a{
+    color: white !important;
+    font-size: 1rem;
+}
+
+.whatsapp-float {
+  text-decoration: none; /* Alt çizgiyi kaldır */
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 5px #999;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebe5c;
+  transform: scale(1.1);
+  text-decoration: none; /* Hover’da da çizgi olmasın */
+}
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float i {
+  margin-top: 16px;
+}
+
+/* Mobilde ikon boyutunu küçült */
+@media (max-width: 768px) {
+  .whatsapp-float {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .whatsapp-float i {
+    margin-top: 13px;
+  }
+}
